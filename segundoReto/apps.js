@@ -1,5 +1,5 @@
 /*
-//1. ALGORITMO SUMA DE DOS NUMEROS ENTEROS
+//1. ALGORITMO SUMA DE DOS NUMEROS
 
 let A = Number.parseFloat(prompt('Ingrese el primer número'));
 while(Number.isNaN(A)) {
@@ -286,7 +286,7 @@ for(let i=1;i<=A;i++){
 
 
 /*
-//13. ALGORITMO DE ALUMNOS APROBADOS Y DESAPROBADOS
+//13. ALGORITMO DE ALUMNOS APROBADOS Y REPROBADOS
 
 let N = Number.parseInt(prompt('Ingrese el número total de alumnos'));
 let A = 0; //variable alumnos aprobados
