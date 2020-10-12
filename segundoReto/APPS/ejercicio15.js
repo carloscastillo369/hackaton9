@@ -6,7 +6,7 @@ const A = 2021; //la constante A es el año de la votación
   
 let d = Number.parseInt(prompt('Ingrese día de nacimiento'));
 while(Number.isNaN(d)) {
-    d = Number.parseInt(prompt('Tiene que ser una número, ingrese día de nacimiento'));
+    d = Number.parseInt(prompt('Tiene que ser un número, ingrese día de nacimiento'));
 }
 while((d.toString()).length>2 || d>31){
     d = Number.parseInt(prompt('Valor no valido, ingrese un día válido'));
@@ -14,7 +14,7 @@ while((d.toString()).length>2 || d>31){
 
 let m = prompt('Ingrese mes de nacimiento');
 while(Number.isNaN(m)) {
-    m = Number.parseInt(prompt('Tiene que ser una número, ingrese mes de nacimiento'));
+    m = Number.parseInt(prompt('Tiene que ser un número, ingrese mes de nacimiento'));
 }
 while((m.toString()).length>2 || m>12) {
     m = Number.parseInt(prompt('Valor no valido, ingrese un mes válido'));
@@ -22,10 +22,10 @@ while((m.toString()).length>2 || m>12) {
 
 let a = prompt('Ingrese año de nacimiento');
 while(Number.isNaN(a)) {
-    a = Number.parseInt(prompt('Tiene que ser una número, ingrese año de nacimiento'));
+    a = Number.parseInt(prompt('Tiene que ser un número, ingrese año de nacimiento'));
 }
 while((a.toString()).length<4 || (a.toString()).length>4) {
-    a = Number.parseInt(prompt('Tiene que ser una número de cuatro dígitos, ingrese año de nacimiento'));
+    a = Number.parseInt(prompt('Tiene que ser un número de cuatro dígitos, ingrese año de nacimiento'));
 }
 
 let R = A-a;
